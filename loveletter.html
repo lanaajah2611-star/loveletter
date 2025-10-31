@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Sayang 💗</title>
+<style>
+    body {
+        background-color: #ffe6f2;
+        font-family: 'Poppins', sans-serif;
+        color: #333;
+        text-align: center;
+        padding: 40px;
+        overflow-x: hidden;
+        transition: all 0.6s ease;
+    }
+
+    h1 {
+        color: #ff4da6;
+        font-size: 40px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+
+    @keyframes glow {
+        from { text-shadow: 0 0 10px #ff80bf, 0 0 20px #ff4da6; }
+        to { text-shadow: 0 0 20px #ff99cc, 0 0 40px #ff4da6; }
+    }
+
+    .message {
+        font-size: 18px;
+        max-width: 600px;
+        margin: auto;
+        background: #fff0f5;
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: 0 0 15px rgba(255, 192, 203, 0.4);
+        line-height: 1.6;
+        text-align: justify;
+    }
+
+    a.button {
+        display: inline-block;
+        background: #ff99cc;
+        color: white;
+        padding: 12px 25px;
+        border-radius: 25px;
+        text-decoration: none;
+        margin-top: 20px;
+        transition: 0.3s;
+    }
+
+    a.button:hover {
+        background: #ff66b2;
+    }
+
+    footer {
+        margin-top: 40px;
+        font-size: 14px;
+        color: #777;
+    }
+
+    .hearts {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        overflow: hidden;
+    }
+
+    .heart {
+        position: absolute;
+        color: #ff4da6;
+        animation: float 6s linear infinite;
+    }
+
+    @keyframes float {
+        0% { transform: translateY(100vh) scale(1); opacity: 1; }
+        100% { transform: translateY(-10vh) scale(1.5); opacity: 0; }
+    }
+
+    #halamanGaleri { display: none; }
+
+    .galeri {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 30px;
+    }
+
+    .galeri img {
+        width: 200px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgba(255, 192, 203, 0.5);
+    }
+
+    .music-btn {
+        background: #fff;
+        border: 2px solid #ff66b2;
+        color: #ff66b2;
+        border-radius: 20px;
+        padding: 8px 15px;
+        font-size: 14px;
+        cursor: pointer;
+        margin-top: 15px;
+    }
+</style>
+</head>
+<body>
+
+<!-- Halaman Ucapan -->
+<div id="halamanUcapan">
+    <h1>💖 Happy Birthday Sayang 💖</h1>
+    
+    <div class="message">
+        <h1>Happy Birthday yaa sayang 🤍</h1> <p>hari ini tuh hari spesial banget, bukan cuma karena kamu ulang tahun, tapi juga karena dunia dikasih kesempatan lagi buat punya kamu di dalamnya. makasih udah mau bertahan sejauh ini, udah milih buat tetap hidup, tetap berjuang, dan tetap jadi versi kamu yang kuat dan bijaksana kayak sekarang. aku bener-bener bangga punya kamu.</p> 
+<p>kamu tuh cowok yang gak cuma baik, tapi juga sabar, pengertian, dan selalu punya cara buat nenangin aku walaupun kadang kamu sendiri lagi capek. aku bersyukur banget bisa jadi orang yang nemenin kamu sejauh ini. makasih ya udah mau jadi pasangan aku, udah mau sabar sama semua kekuranganku, dan udah mau terus ada di samping aku.</p> 
+<p>semoga di umur kamu yang sekarang, semua doa baik dateng ke hidup kamu rezeki lancar, hati tenang, dan semua hal yang kamu pengen satu-satu bisa tercapai. aku juga berharap kamu selalu dikelilingi orang-orang yang tulus, yang bikin kamu ngerasa dihargain dan disayang.</p> 
+<p>buat kita, aku cuma pengen hubungan ini makin kuat, makin dewasa, makin banyak tawa daripada marahnya, dan makin saling ngerti. aku tau kadang kita gak sempurna, tapi aku yakin kalau kita terus sama-sama belajar, semua bisa dilalui bareng.</p> 
+<p>dan kalo 10 tahun dari sekarang… aku pengen masih bisa ngucapin ulang tahun ke kamu, tapi bukan lewat chat lagi mungkin sambil liat kamu langsung, di tempat yang udah kita bangun bareng. entah itu rumah kecil, atau cuma ruang sederhana yang penuh tawa kita. entah di mana, entah kayak gimana, tapi semoga masih bisa liat senyum kamu tiap pagi dan bilang, “kita udah sejauh ini ya.” <span class="heart">🤍</span></p>
+ <p>karena buat aku, kebahagiaan gak selalu soal mewah atau besar cukup ada kamu, aku udah ngerasa punya segalanya.</p>
+    </div>
+
+    <a href="#" class="button" onclick="gantiHalaman()">Lihat Foto-Foto Kita 📸</a>
+    
+    <footer>— Dari aku, yang beruntung punya kamu 💫 —</footer>
+</div>
+
+<!-- Halaman Galeri -->
+<div id="halamanGaleri">
+    <h2 style="color:#ff4da6;">📷 Galeri Kenangan Kita 💕</h2>
+    <div class="galeri">
+        <div>
+            <img src="first.jpg">
+            <p>✨ Waktu pertama kali jalan bareng, awokawok kocak bgt lg, aku sempet foto soalnya pap ke bocah gitu</p>
+            <p> pokoknya ini moment yg gabakal kelupa sihhh heheee. asli disini kek org dongo. tpi gapapa seru hehehe</p>
+<p> kita bisa jdi gini deh sekarang, itu klo ak ga nagih gmna yah...</p>
+        </div>
+        <div>
+            <img src="fotbar.jpg">
+            <p>🌈 nahh klo yg ini firstime kita fotbar, aku ga espek klo kamu bakal mau fotbar... </p>
+<p> lucu deh pas inii, trus kita jdi sering fotbar gitu, itupun aku lg heheeh, ak cegil jg yahh..</p>
+<p> sampe kamku ikutan jdi cogil gt, ga espek kamu bisa kek skrng hihh buayaaa</p>
+        </div>
+        <div>
+            <img src="esde.jpg">
+            <p>💞 yang ini pas esde, lucunya kita ada moment pas sd njrr, kyk barengan gitu..</p>
+<p> tpi pas smp sayangnya gaada moment bareng gitu, pdhl sering ketemu jg sebenernya karena kamu temenan sama </p>
+<p> temen kelas aku, kita jdi sering ketemu, mana kamu juga jdi sering tau tentang aku gitu lg anjr..</p>
+<p> tpi pas kecil kita lucu juga yah mweheheheh, dlu berantem mlu pdhl pas di baitulhalim, kamunya udh ngeselin dari dlu</p>
+<p> sampe sekarang masih ngeselin gitu, sama aja ternyata </p>
+        </div>
+
+<div>
+            <img src="cewe.jpg">
+            <p>💞 ini siapaaa yaaa... ini cewe kamu yg sekarangg, temen sd-smp kamu yang kamu liat selama 10 tahun sampe gumoh</p>
+<p> gimana ngeliat muka aku terus??? hmmm hmmmm, skrng kan jdi cewe kamu lebih sering lagi deh ngeliat muka aku 😋😋</p>
+<p> ini cwe kamu yg paling lucu, paling imut, paling menggemaskan, paling cantik pokoknya kesayangan kamu gitu mwehehe</p>
+<p> ini cwe yang sayang sama kamu banyak-banyak, cwe yang bakal perhatiin kamu truss, cwe yang selalu siap siaga buat kamu hehehe</p>
+<p> udah ah kebanyakan bingung</p>
+<p> pokoknya kata cewe inii, I LOVE YOU MORE FOREVER AND EVER 🤍💖💗
+</p>        </div>
+    </div>
+    <a href="#" class="button" onclick="kembali()">⬅️ Balik ke Ucapan</a>
+</div>
+
+<!-- Musik YouTube (disembunyiin) -->
+<iframe id="musicPlayer" width="0" height="0"
+    src="https://www.youtube.com/embed/CVEPAN2eLYg?enablejsapi=1&playlist=CVEPAN2eLYg&loop=1"
+    frameborder="0" allow="autoplay">
+</iframe>
+
+<div class="hearts"></div>
+
+<script>
+    // animasi hati 💗
+    const heartsContainer = document.querySelector('.hearts');
+    setInterval(() => {
+        const heart = document.createElement('div');
+        heart.classList.add('heart');
+        heart.textContent = '💗';
+        heart.style.left = Math.random() * 100 + 'vw';
+        heart.style.animationDuration = (4 + Math.random() * 3) + 's';
+        heartsContainer.appendChild(heart);
+        setTimeout(() => heart.remove(), 6000);
+    }, 400);
+
+    // ganti halaman
+    function gantiHalaman() {
+        document.getElementById('halamanUcapan').style.display = 'none';
+        document.getElementById('halamanGaleri').style.display = 'block';
+        window.scrollTo(0, 0);
+    }
+
+    function kembali() {
+        document.getElementById('halamanGaleri').style.display = 'none';
+        document.getElementById('halamanUcapan').style.display = 'block';
+        window.scrollTo(0, 0);
+    }
+
+    // tombol play music (autoplay jarang bisa langsung)
+    function playMusic() {
+        const player = document.getElementById('musicPlayer');
+        player.src += "&autoplay=1";
+        alert("🎶 Musik mulai diputar!");
+    }
+</script>
+
+</body>
+</html>
